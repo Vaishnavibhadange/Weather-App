@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:blueviolet;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+    margin: 10px;
+}
+#search{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border:0;
+    outline: 0;
+}
+.row h4{
+    font-size: 35px;
+}
